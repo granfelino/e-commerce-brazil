@@ -459,3 +459,35 @@ ALTER TABLE products_analysis
 ALTER COLUMN category SET NOT NULL;
 
 -- cleaning complete
+
+-- rename original tables to raw
+-- i should've done it first
+-- but since i don't have much time
+-- i'll change the names now
+
+
+ALTER TABLE orders
+RENAME TO orders_raw;
+
+ALTER TABLE customers
+RENAME TO customers_raw;
+
+ALTER TABLE order_items
+RENAME TO order_items_raw;
+
+ALTER TABLE products
+RENAME TO products_raw;
+
+
+-- create views 
+CREATE VIEW customers AS 
+SELECT * FROM customers_analysis;
+
+CREATE VIEW orders AS
+SELECT * FROM orders_analytics;
+
+CREATE VIEW order_items AS
+SELECT * FROM order_items_analytics;
+
+CREATE VIEW products AS
+SELECT * FROM products_analysis;
