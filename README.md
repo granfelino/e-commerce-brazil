@@ -93,7 +93,7 @@ Data schema of the dataset (image taken from the source site).
 
 -----
 ![Buckets of customer's average price](plots/avg-price-customer-buckets.png)
-* The quantile bucket distribution shows that none of the buying groups account for more revenue than the others. All customer's groups contribute to the revenue equally, those who buy cheap and those who buy expensive, alike.
+* The quantile bucket distribution shows that none of the buying groups account for more revenue than the others. All customer groups contribute to the revenue equally, those who buy cheap and those who buy expensive, alike.
 
 -----
 ![Monthly revenue](plots/monthly-rev.png)
