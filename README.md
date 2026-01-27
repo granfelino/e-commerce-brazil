@@ -105,6 +105,7 @@ Data schema of the dataset (image taken from the source site).
 
 -----
 ![Top 3 categories per quarter](plots/top-3-cat-by-quarter.png)
-
+* `health_beauty`, `bed_bath_table`, `watches_gifts`, `sports_leisure` are the main categories which are top contributors to the revenue.
 
 ![Quantity vs revenue trend](plots/quant-vs-rev-over-time.png)
+* You can see that revenue and amount of items sold go hand in hand when it comes to trends. If revenue goes up, so does the amount of items sold. The customers are static in their product choices.
