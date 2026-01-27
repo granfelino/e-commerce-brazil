@@ -50,3 +50,11 @@ Data schema of the dataset (image taken from the source site).
 -----
 ### Analysis results
 ![Revenue by category](plots/rev-by-cat.png)
+![Quantity by category](plots/quant-by-cat.png)
+![Revenue by status](plots/rev-by-status.png)
+![Average price by state](plots/avg-price-by-state.png)
+![Buckets of customer's average price](plots/avg-price-customer-buckets.png)
+![Monthly revenue](plots/monthly-rev.png)
+![Month-over-month revenue change](plots/mom-change.png)
+![Top 3 categories per quarter](plots/top-3-cat-by-quarter.png)
+![Quantity vs revenue trend](plots/quant-vs-rev-over-time.png)
