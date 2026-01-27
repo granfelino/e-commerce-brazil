@@ -109,4 +109,4 @@ Data schema of the dataset (image taken from the source site).
 
 -----
 ![Quantity vs revenue trend](plots/quant-vs-rev-over-time.png)
-* You can see that revenue and amount of items sold go hand in hand when it comes to trends. If revenue goes up, so does the amount of items sold. The customers are static in their product choices.
+* You can see that revenue and amount of items sold go hand in hand when it comes to trends. If revenue goes up, so does the amount of items sold. There is no significant shift towards higher- or lower-priced products over time.
