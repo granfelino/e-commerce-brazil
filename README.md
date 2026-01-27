@@ -50,7 +50,7 @@ Data schema of the dataset (image taken from the source site).
 -----
 ### Analysis results
 ![Revenue by category](plots/rev-by-cat.png)
-* Top categories:
+* Top categories by revenue generated:
     1. `health_beauty`
     2. `watches_gifts`
     3. `bed_bath_table`
@@ -63,14 +63,48 @@ Data schema of the dataset (image taken from the source site).
     10. `garden_tools`
     11. `toys`
     12. `baby`
-Together the top 12 categories account for 70% of the total revenue generated within the analyzed period.
+* Together the top 12 categories account for 70% of the total revenue generated within the analyzed period.
 
 -----
 ![Quantity by category](plots/quant-by-cat.png)
+* Top categories by amount of items sold:
+    1. `bed_bath_table`
+    2. `health_beauty`
+    3. `sports_leisure`
+    4. `furniture_decor`
+    5. `computers_accessories`
+    6. `housewares`
+    7. `watches_gifts`
+    8. `telephony`
+    9. `garden_tools`
+    10. `auto`
+    11. `toys`
+    12. `cool_stuff`
+* Similarly, the top 12 categories account for almost 72% of total amount of items sold within the analyzed period.
+
+-----
 ![Revenue by status](plots/rev-by-status.png)
+* Revenue loss stemming from cancelled orders lays below 1% of the revenue's total.
+
+-----
 ![Average price by state](plots/avg-price-by-state.png)
+* The average price in the top 12 states differs slightly, reaching its maximum in PB. 
+* The rest of the states' average suggests that much cheaper items are bought in the bottom states.
+
+-----
 ![Buckets of customer's average price](plots/avg-price-customer-buckets.png)
+* The quantile bucket distribution shows that none of the buying groups account for more revenue than the others. All customer's groups contribute to the revenue equally, those who buy cheap and those who buy expensive, alike.
+
+-----
 ![Monthly revenue](plots/monthly-rev.png)
+* One can observe a significant rise of monthly revenue from January 2017 until November 2017, after which the monthly revenue more or less plateaus.
+
+-----
 ![Month-over-month revenue change](plots/mom-change.png)
+* A clear pattern of increases with regards to the previous month is to be seen among almost all months analyzed.
+
+-----
 ![Top 3 categories per quarter](plots/top-3-cat-by-quarter.png)
+
+
 ![Quantity vs revenue trend](plots/quant-vs-rev-over-time.png)
