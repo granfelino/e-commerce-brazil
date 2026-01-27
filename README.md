@@ -50,6 +50,22 @@ Data schema of the dataset (image taken from the source site).
 -----
 ### Analysis results
 ![Revenue by category](plots/rev-by-cat.png)
+Top categories:
+    1. `health_beauty`
+    2. `watches_gifts`
+    3. `bed_bath_table`
+    4. `sports_leisure`
+    5. `computers_accessories`
+    6. `furniture_decor`
+    7. `cool_stuff`
+    8. `housewares`
+    9. `auto`
+    10. `garden_tools`
+    11. `toys`
+    12. `baby`
+Together the top 12 categories account for 70% of the total revenue generated within the analyzed period.
+
+-----
 ![Quantity by category](plots/quant-by-cat.png)
 ![Revenue by status](plots/rev-by-status.png)
 ![Average price by state](plots/avg-price-by-state.png)
