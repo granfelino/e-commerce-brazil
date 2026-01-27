@@ -50,7 +50,7 @@ Data schema of the dataset (image taken from the source site).
 -----
 ### Analysis results
 ![Revenue by category](plots/rev-by-cat.png)
-Top categories:
+* Top categories:
     1. `health_beauty`
     2. `watches_gifts`
     3. `bed_bath_table`
