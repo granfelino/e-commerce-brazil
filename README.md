@@ -10,7 +10,7 @@ Data schema of the dataset (image taken from the source site).
 
 * This dataset is big. To clean it and validate it I need a bit of time. For now I will focus on what I think is the core of the dataset:
     1. `orders`
-    2. `order\_items`
+    2. `order_items`
     3. `customers`
     4. `products`
 
